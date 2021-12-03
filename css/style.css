@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: linear-gradient(to bottom right, #0040FF, #5882FA);
+    
+}
+.header {
+    width: 100%;
+    height: 45vh;
+    padding: 5%;
+}
+header div.container{
+    max-width: 1200px;
+}
+header div.info-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div img {
+    padding: 0px;
+    width: 30%;
+    border: 5px solid;
+    color: #FFFFFF;
+    border-radius: 50px 0px;
+}
+div.info p.nome{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-left: -120%;
+}
+div.info p.cargo{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: -120%;
+    margin-top: -8%;
+    opacity: 0.8;
+}
+header hr{
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div.contato-header{
+    width: 30vw;
+    height: 5vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+header section div h6{
+    opacity: 0.8;
+}
+section.sobre{
+    background: #FFFFFF;
+    color: dimgray;
+    width: 100%;
+    height: 55vh;
+    padding: 5%;
+    text-align: center;
+}
+section.sobre h2{
+    color: #0040FF;
+    font-weight: 700;
+}
+section.sobre p{
+    padding: 0px 15%;
+    padding-bottom: 5%;
+}
+section.sobre div.hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.sobre div.inner-hobbies{
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+}
+section.sobre div.hobbies div.inner-hobbies img{
+    width: 8%;
+    margin-bottom: 1%;
+}
+section.skills{
+    background: dimgray;
+    color: #FFFFFF;
+    width: 100%;
+    height: 65vh;
+    padding: 5%;
+    text-align: center;
+}
+section.skills div.inner-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.skills div.inner-skills div.card-skills{
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+}
+section.skills div.inner-skills div.card-skills h5{
+    margin-bottom: 6%;
+}
+section.skills div.inner-skills div.card-skills ul.lista-skills{
+    text-align: left;
+    text-decoration: none;
+    color: dimgray;
+    background: #FFFFFF;
+    border-radius: 50px 0px;
+    padding: 5%;
+    box-shadow: 5px 5px #0040FF, 10px 10px #5882FA;
+}
+section.skills div.inner-skills div.card-skills ul.lista-skills li{
+    text-decoration: none;
+    margin-left: 5%;
+}
