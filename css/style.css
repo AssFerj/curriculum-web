@@ -12,6 +12,16 @@ body {
     height: 45vh;
     padding: 5%;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 15%;
+    margin-right: 5%;
+    margin-top: -10%;
+}
 header div.container{
     max-width: 1200px;
 }
@@ -91,7 +101,7 @@ section.skills{
     background: dimgray;
     color: #FFFFFF;
     width: 100%;
-    height: 65vh;
+    height: 95vh;
     padding: 5%;
     text-align: center;
 }
@@ -99,6 +109,7 @@ section.skills div.inner-skills{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10%;
 }
 section.skills div.inner-skills div.card-skills{
     width: 30vw;
@@ -112,12 +123,88 @@ section.skills div.inner-skills div.card-skills ul.lista-skills{
     text-align: left;
     text-decoration: none;
     color: dimgray;
-    background: #FFFFFF;
     border-radius: 50px 0px;
     padding: 5%;
-    box-shadow: 5px 5px #0040FF, 10px 10px #5882FA;
 }
 section.skills div.inner-skills div.card-skills ul.lista-skills li{
-    text-decoration: none;
-    margin-left: 5%;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background: #FFFFFF;
+    border-radius: 20px 0;
+    padding: 2% 5%;
+    color: #0040FF;
+}
+section.skills div.inner-skills div.card-skills ul.lista-skills li.animation{
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background: #0040FF;
+    border-radius: 20px 0;
+    padding: 2% 5%;
+    color: #FFFFFF;
+}
+section.skills div.inner-skills div.card-skills ul.lista-skills li.animation.ss{
+    width: 50%;
+    z-index: 1;
+    text-align: right;
+    margin: -11.2% 0 2.5% 50%;
+}
+section.skills div.inner-skills div.card-skills ul.lista-skills li.animation.hs{
+    width: 50%;
+    z-index: 1;
+    text-align: right;
+    margin: -11.2% 0 2.5% 50%;
+}
+section.experiencia{
+    background: #FFFFFF;
+    color: dimgray;
+    width: 100%;
+    height: 65%;
+    padding: 5% 10%;
+    text-align: center;
+}
+section.experiencia h2{
+    color: #0040FF;
+    font-weight: 700;
+}
+section.experiencia div.card-desc{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-right: 1px solid;
+    border-color: #D8D6D4;
+    padding: 2% 2%;
+}
+section.experiencia div.card-exp{
+    width: 30%;
+    height: auto;
+    padding: 2% 0;
+}
+section.experiencia div.container div.card-exp p{
+    line-height: 5px;
+}
+footer{
+    text-align: center;
+}
+footer div.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 3% 0;
+}
+footer div.footer div.inner-footer img.icon-footer{
+    width: 5%;
+    margin: 0 1%;
+}
+footer div.footer div.inner-footer{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
