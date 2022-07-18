@@ -3,208 +3,82 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    background: linear-gradient(to bottom right, #0040FF, #5882FA);
-    
+body{
+    font-family: 'Poppins', sans-serif;
 }
-.header {
+.d-flex{
+    display: flex;
+}
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #51ADE5;
+    padding: 1rem;
+    height: 100vh;
+}
+main{
+    flex: 3;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    height: 100vh;
+}
+img{
     width: 100%;
-    height: 45vh;
-    padding: 5%;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.foto-perfil{
+    width: 50%;
 }
-.icon{
-    width: 15%;
-    margin-right: 5%;
-    margin-top: -10%;
+.imagem-perfil{
+    border: 3px solid #fff;
+    border-radius: 30px 0 30px 0;
 }
-header div.container{
-    max-width: 1200px;
-}
-header div.info-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header div img {
-    padding: 0px;
-    width: 30%;
-    border: 5px solid;
-    color: #FFFFFF;
-    border-radius: 50px 0px;
-}
-div.info p.nome{
-    color: #FFFFFF;
-    font-size: 50px;
-    margin-left: -120%;
-}
-div.info p.cargo{
-    color: #FFFFFF;
-    font-size: 30px;
-    margin-left: -120%;
-    margin-top: -8%;
-    opacity: 0.8;
-}
-header hr{
-    color: #FFFFFF;
-    border-radius: 5px;
-}
-header section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header div.contato-header{
-    width: 30vw;
-    height: 5vh;
-    color: #FFFFFF;
+nav{
+    margin-top: 1rem;
     text-align: center;
 }
-header section div h6{
-    opacity: 0.8;
+li{
+    margin-top: .5rem;
+    list-style: none;
 }
-section.sobre{
-    background: #FFFFFF;
-    color: dimgray;
-    width: 100%;
-    height: 55vh;
-    padding: 5%;
-    text-align: center;
-}
-section.sobre h2{
-    color: #0040FF;
-    font-weight: 700;
-}
-section.sobre p{
-    padding: 0px 15%;
-    padding-bottom: 5%;
-}
-section.sobre div.hobbies{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-section.sobre div.inner-hobbies{
-    width: 30vw;
-    height: 5vh;
-    text-align: center;
-}
-section.sobre div.hobbies div.inner-hobbies img{
-    width: 8%;
-    margin-bottom: 1%;
-}
-section.skills{
-    background: dimgray;
-    color: #FFFFFF;
-    width: 100%;
-    height: 95vh;
-    padding: 5%;
-    text-align: center;
-}
-section.skills div.inner-skills{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
-}
-section.skills div.inner-skills div.card-skills{
-    width: 30vw;
-    height: 5vh;
-    text-align: center;
-}
-section.skills div.inner-skills div.card-skills h5{
-    margin-bottom: 6%;
-}
-section.skills div.inner-skills div.card-skills ul.lista-skills{
-    text-align: left;
+li a{
     text-decoration: none;
-    color: dimgray;
-    border-radius: 50px 0px;
-    padding: 5%;
+    color: #fff;
 }
-section.skills div.inner-skills div.card-skills ul.lista-skills li{
-    list-style-type: none;
-    font-weight: bold;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    background: #FFFFFF;
-    border-radius: 20px 0;
-    padding: 2% 5%;
-    color: #0040FF;
+li a:hover{
+    color: #022179;
+    transition: all .5s;
 }
-section.skills div.inner-skills div.card-skills ul.lista-skills li.animation{
-    list-style-type: none;
-    font-weight: bold;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    background: #0040FF;
-    border-radius: 20px 0;
-    padding: 2% 5%;
-    color: #FFFFFF;
+h1{
+    color: #022179;
+    font-size: 3rem;
+    font-weight: bolder;
 }
-section.skills div.inner-skills div.card-skills ul.lista-skills li.animation.ss{
-    width: 50%;
-    z-index: 1;
-    text-align: right;
-    margin: -11.2% 0 2.5% 50%;
+.destaque{
+    color: #51ADE5;
 }
-section.skills div.inner-skills div.card-skills ul.lista-skills li.animation.hs{
-    width: 50%;
-    z-index: 1;
-    text-align: right;
-    margin: -11.2% 0 2.5% 50%;
+address{
+    color: #545454;
 }
-section.experiencia{
-    background: #FFFFFF;
-    color: dimgray;
-    width: 100%;
-    height: 65%;
-    padding: 5% 10%;
-    text-align: center;
+address a{
+    color: #51ADE5;
+    text-decoration: none;
 }
-section.experiencia h2{
-    color: #0040FF;
-    font-weight: 700;
+address a:hover{
+    color: #5CE1E6;
+    transition: all .5s;
 }
-section.experiencia div.card-desc{
-    width: 20%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    border-right: 1px solid;
-    border-color: #D8D6D4;
-    padding: 2% 2%;
+.descricao{
+    margin: 2rem 0;
+    color: #545454;
 }
-section.experiencia div.card-exp{
-    width: 30%;
-    height: auto;
-    padding: 2% 0;
+p a{
+    text-decoration: none;
+    color: #51ADE5;
 }
-section.experiencia div.container div.card-exp p{
-    line-height: 5px;
-}
-footer{
-    text-align: center;
-}
-footer div.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 3% 0;
-}
-footer div.footer div.inner-footer img.icon-footer{
-    width: 5%;
-    margin: 0 1%;
-}
-footer div.footer div.inner-footer{
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
+p a:hover{
+    color: #5CE1E6;
 }
