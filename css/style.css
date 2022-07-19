@@ -82,4 +82,21 @@ p a{
 }
 p a:hover{
     color: #5CE1E6;
+    transition: all .5s;
+}
+.icon-list{
+    display: flex;
+}
+.bi{
+    font-size: 25px;
+}
+.icon-social{
+    background-color: #022179;
+    border-radius: 10px 0 10px 0;
+    padding: .5% 1%;
+    margin-right: 1.5rem;
+}
+.icon-social:hover{
+    background-color: #51ADE5;
+    transition: all .5s;
 }
