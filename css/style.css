@@ -153,3 +153,18 @@ p a:hover{
     /* Rounded border */
     border-radius: 5px 0;
 }
+.hash-area{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.card-hash{
+    padding: .5rem;
+    border: 1px solid #545454;
+    border-radius: 10px 0;
+}
+.card-hash:hover{
+    background-color: #545454;
+    color: #fff;
+    transition: all .5s;
+}
