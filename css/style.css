@@ -170,7 +170,7 @@ p a:hover{
 }
 
 @media only screen and (max-width: 600px) {
-    d-flex {
+    .d-flex {
       display: flex;
       flex-direction: column;
    }
