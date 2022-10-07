@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,200;1,500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <title>Assis Júnior | Currrículum Web</title>
-    </head>
-    <body class="d-flex">
-        <aside>
-            <figure class="foto-perfil">
-                <img class="imagem-perfil" src="img/assis.jpg" alt="Assis Júnior">
-            </figure>
-            <nav>
-                <ul>
-                    <li><a href="index.html">SOBRE</a></li>
-                    <li><a href="conhecimentos.html">CONHECIMENTOS</a></li>
-                    <li><a href="objetivo.html">OBJETIVO</a></li>
-                    <li><a href="projetos.html">PROJETOS</a></li>
-                </ul>
-            </nav>
-        </aside>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>Assis Júnior | Objetivo</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body class="row vh-100">
+            <aside class="col-md-4 p-4 curr-bg d-flex flex-column justify-content-center align-items-center">
+                <nav class="navbar navbar navbar-expand-lg d-flex flex-column justify-content-center align-items-center">
 
-        <main>
-            <div>
-                <h1>
-                    FRANCISCO DE <strong class="destaque">ASSIS</strong><br>
-                    FERREIRA <strong class="destaque">JÚNIOR</strong>
-                </h1>
-                <address>
-                    Rua Manoel José de Araújo, 84, Olinda<br>
-                    Camocim - CE - 
-                    <a href="mailto:assisjuniorcam@gmail.com">assisjuniorcam@gmail.com</a>
-                </address>
-            </div>
-            <hr>
-            <div>
-                <div>
-                    <h2>&#187; MEUS OBJETIVOS</h2>
-                    <p class="descricao">Meu objetivo em estudar programação e entrar para a turma do Programa Starter é fazer uma migração de carreira da área comercial para a área de tecnologia, área que admiro e pela qual sou apaixonado a tanto tempo, estou buscando novas oportunidades e desafios que possam me ajudar a crescer como pessoa e como profissional, busco me tornar um Desenvolvedor Fullstack, construir uma carreira sólida na área de TI, reforçar os conhecimentos que tenho e sempre aprender mais em cada caminhada como DEV, poder contribuir para o crescimento das pessoas e empresas com as quais trabalhar e fazer parte desse universo de possibilidades ilimitadas que é programação. &#9996;</p>
-                    <section class="hash-area">
-                        <p class="descricao card-hash">&#129504; #growdev</p>
-                        <p class="descricao card-hash">&#129470; #boragrowdevers</p>
-                        <p class="descricao card-hash">&#129302; #programação</p>
-                        <p class="descricao card-hash">&#128421; #devfullstack</p>
-                    </section>
+                        <div class="row px-3 foto-perfil">
+                            <img src="./assets/img/assis.jpg" alt="Assis Júnior" class="imagem-perfil px-2">
+                        </div>
+
+                        <div class="row pt-5">
+                            <button class="navbar-toggler btn bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav d-flex flex-column justify-content-center align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="index.html">SOBRE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="conhecimentos.html">CONHECIMENTOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light active" aria-current="page" href="objetivo.html">OBJETIVO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="projetos.html">PROJETOS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                  </nav>
+            </aside>
+
+            <section class="col-md-8 p-4 d-flex flex-column justify-content-center">
+                <div class="row mb-3">
+                    <h1 class="curr-font fs-1 fw-bold">
+                        FRANCISCO DE <strong class="destaque fs-1 fw-bold">ASSIS</strong><br>
+                        FERREIRA <strong class="destaque fs-1 fw-bold">JÚNIOR</strong>
+                    </h1>
+                    <address>
+                        Rua Manoel José de Araújo, 84, Olinda<br>
+                        Camocim - CE - 
+                        <a class="link" href="mailto:assisjuniorwm@gmail.com">assisjuniorwm@gmail.com</a>
+                    </address>
                 </div>
-            </div>
-        </main>
-    </body>
+
+                <hr>
+                
+                <section class="row mt-3">
+                    <div class="col-12 curr-font fw-bold">
+                        <h2><i class="bi bi-bullseye icon-sk"></i> MEUS OBJETIVOS</h2>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <p class="px-4">Meu objetivo em estudar programação é fazer uma migração de carreira da área comercial para a área de tecnologia, área que admiro e pela qual sou apaixonado a tanto tempo, busco novas oportunidades e desafios que possam me ajudar a crescer como pessoa e como profissional, busco me tornar um Desenvolvedor Fullstack, construir uma carreira sólida na área de TI, reforçar os conhecimentos que tenho e sempre aprender mais em cada caminhada como DEV, poder contribuir para o crescimento das pessoas e empresas com as quais trabalhar e fazer parte desse universo de possibilidades ilimitadas que é programação. &#9996;</p>
+                    <section class="mt-3 d-flex flex-wrap justify-content-center align-items-center">
+                        <p class="descricao card-hash m-2">&#129504; #growdev</p>
+                        <p class="descricao card-hash m-2">&#129470; #boragrowdevers</p>
+                        <p class="descricao card-hash m-2">&#129302; #programação</p>
+                        <p class="descricao card-hash m-2">&#128421; #devfullstack</p>
+                    </section>
+                    </div>
+                </section>
+            </section>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
 </html>
