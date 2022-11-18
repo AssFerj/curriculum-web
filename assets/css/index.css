@@ -1,71 +1,83 @@
-*{
-    margin: 0 !important;
-    box-sizing: border-box;
-    text-decoration: none !important;
+* {
+  margin: 0 !important;
+  box-sizing: border-box;
+  text-decoration: none !important;
 }
-.foto-perfil{
-    width: 50%;
+.foto-perfil {
+  width: 50%;
 }
-.imagem-perfil{
-    padding:.31rem;
-    border: 5px solid #fff;
-    border-radius: 30px 0 30px 0;
+.imagem-perfil {
+  padding: 0.31rem;
+  border: 5px solid #fff;
+  border-radius: 30px 0 30px 0;
 }
-.curr-bg{
-    background-image: linear-gradient(135deg, #022179, #51ADE5);
+.curr-bg {
+  background-image: linear-gradient(135deg, #022179, #51ade5);
 }
-hr{
-    margin: 1rem 0;;
+hr {
+  margin: 1rem 0;
 }
-.curr-font{
-    color: #022179;
+.curr-font {
+  color: #022179;
 }
-.destaque{
-    color: #51ADE5;
+.destaque {
+  color: #51ade5;
 }
-address{
-    color: #545454;
+address {
+  color: #545454;
 }
-.link{
-    color: #51ADE5;
-    text-decoration: none;
+.link {
+  color: #51ade5;
+  text-decoration: none;
 }
-.link:hover{
-    color: #5CE1E6;
-    transition: all .5s;
+.link:hover {
+  color: #5ce1e6;
+  transition: all 0.5s;
 }
-.descricao{
-    margin: 1.5rem 0 !important;
-    color: #545454;
+.descricao {
+  margin: 1.5rem 0 !important;
+  color: #545454;
 }
-li{
-    list-style: none !important;
+li {
+  list-style: none !important;
 }
-.link-icon{
-    background-color: #022179;
-    border-radius: 10px 0 10px 0;
+.link-icon {
+  background-color: #022179;
+  border-radius: 10px 0 10px 0;
 }
-.link-icon:hover{
-    background-color: #51ADE5;
-    border-radius: 10px 0 10px 0;
-    transition: all .5s;
+.link-icon:hover {
+  background-color: #51ade5;
+  color: #fff;
+  border-radius: 10px 0 10px 0;
+  transition: all 0.5s;
 }
-.icon{
-    color: #fff;
+.icon {
+  color: #fff;
 }
-.icon-sk{
-    color: #022179;
+.icon-sk {
+  color: #022179;
 }
-.prog-roung{
-    border-radius: 5px 0 !important;
+.prog-roung {
+  border-radius: 5px 0 !important;
 }
-.card-hash{
-    padding: .5rem;
-    border: 1px solid #545454;
-    border-radius: 10px 0;
+.card-hash {
+  padding: 0.5rem;
+  border: 1px solid #545454;
+  border-radius: 10px 0;
 }
-.card-hash:hover{
-    background-color: #545454;
-    color: #fff;
-    transition: all .5s;
+.card-hash:hover {
+  background-color: #545454;
+  color: #fff;
+  transition: all 0.5s;
+}
+.curr-btn-bg {
+  background-color: #022179;
+  color: #fff;
+}
+.curr-border {
+  border: none;
+  border-radius: 10px 0;
+}
+.form-border {
+  border-radius: 10px 0 !important;
 }
