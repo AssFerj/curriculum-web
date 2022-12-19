@@ -147,7 +147,6 @@
             action="https://formspree.io/f/xayzwoya"
             method="POST"
             enctype="multipart/form-data"
-            class="d-flex flex-direction-row"
           >
             <div class="col-md-6 mb-3">
               <label for="currNomeInput" class="form-label">Nome</label>
@@ -242,7 +241,92 @@
             <div class="col-md-12 mb-3">
               <label for="currMesgConcorrentesTextarea" class="form-label"
                 >Principais concorrentes</label
+              ><br />
+              <input type="radio" id="sim" name="possui-logo" value="sim" />
+              <label for="sim">Sim</label><br />
+              <input type="radio" id="nao" name="possui-logo" value="nao" />
+              <label for="nao">Não</label><br />
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgReferenciasTextarea" class="form-label"
+                >Site alguns sites que gosta em termos de aparência</label
               >
+              <textarea
+                class="form-control form-border"
+                name="msg-referencias"
+                id="currMesgReferenciasTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgNaoReferenciasTextarea" class="form-label"
+                >Site alguns sites que não gosta em termos de aparência</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-nao-referencias"
+                id="currMesgNaoReferenciasTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label for="currCorInput" class="form-label"
+                >Informe 3 cores principais que farão parte da identidade visual
+                do site</label
+              >
+              <input
+                type="text"
+                name="cor"
+                class="form-control form-border"
+                id="currCorInput"
+                placeholder="Informe as cores"
+                required
+              />
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label for="currLinkInput" class="form-label"
+                >Informe os principais links farão parte do site</label
+              >
+              <input
+                type="text"
+                name="link"
+                class="form-control form-border"
+                id="currLinkInput"
+                placeholder="Ex: HOME, EMPRESA, SERVIÇOS, ETC..."
+                required
+              />
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currTipoTextarea" class="form-label"
+                >Qual será o tipo do seu site?</label
+              ><br />
+              <input type="radio" id="portal" name="tipo-site" value="portal" />
+              <label for="sim">Sim</label><br />
+              <input type="radio" id="nao" name="tipo-site" value="nao" />
+              <label for="nao">Não</label><br />
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              ><br />
+              <input type="radio" id="sim" name="possui-logo" value="sim" />
+              <label for="sim">Sim</label><br />
+              <input type="radio" id="nao" name="possui-logo" value="nao" />
+              <label for="nao">Não</label><br />
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              ><br />
               <input type="radio" id="sim" name="possui-logo" value="sim" />
               <label for="sim">Sim</label><br />
               <input type="radio" id="nao" name="possui-logo" value="nao" />
