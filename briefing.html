@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE sim>
+<sim lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -53,20 +53,20 @@
                 <a
                   class="nav-link text-light active"
                   aria-current="page"
-                  href="index.html"
+                  href="index.sim"
                   >SOBRE</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="conhecimentos.html"
+                <a class="nav-link text-light" href="conhecimentos.sim"
                   >CONHECIMENTOS</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="objetivo.html">OBJETIVO</a>
+                <a class="nav-link text-light" href="objetivo.sim">OBJETIVO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="projetos.html">PROJETOS</a>
+                <a class="nav-link text-light" href="projetos.sim">PROJETOS</a>
               </li>
               <li class="nav-item mt-3">
                 <a
@@ -142,11 +142,12 @@
         </ul>
       </section>
       <section class="row">
-        <div class="col-md-12 mt-4 d-flex">
+        <div class="col-md-12 mt-4">
           <form
             action="https://formspree.io/f/xayzwoya"
             method="POST"
             enctype="multipart/form-data"
+            class="d-flex flex-direction-row"
           >
             <div class="col-md-6 mb-3">
               <label for="currNomeInput" class="form-label">Nome</label>
@@ -199,7 +200,7 @@
               />
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-12 mb-3">
               <label for="currMesgServicosTextarea" class="form-label"
                 >Produtos ou Serviços prestados pela empresa</label
               >
@@ -212,7 +213,43 @@
               ></textarea>
             </div>
 
-            <div class="mb-3">
+            <div class="col-md-12 mb-3">
+              <label for="currMesgPublicoTextarea" class="form-label"
+                >Público alvo</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-publico"
+                id="currMesgPublicoTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-concorrentes"
+                id="currMesgConcorrentesTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              >
+              <input type="radio" id="sim" name="possui-logo" value="sim" />
+              <label for="sim">Sim</label><br />
+              <input type="radio" id="nao" name="possui-logo" value="nao" />
+              <label for="nao">Não</label><br />
+            </div>
+
+            <div class="col-md-12 mb-3">
               <label for="currMesgTextarea" class="form-label"
                 >Observações adicionais</label
               >
@@ -239,4 +276,4 @@
     </section>
     <script src="./assets/js/bootstrap.bundle.js"></script>
   </body>
-</html>
+</sim>
