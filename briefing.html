@@ -103,8 +103,10 @@
       <div class="row">
         <div class="col-12">
           <h5 class="descricao">
-            Mais informações ou dúvidas entre em contato através dos links ou
-            formulário abaixo.
+            Preencha o formulário abaixo para que eu possa entender a essência
+            da sua idéia e os objetivos do seu projeto, brevemente entrarei em
+            contato para confirmar informações e acertar a finalização do seu
+            projeto, prazo de até 20 dias para entrega do seu site.
           </h5>
         </div>
       </div>
@@ -141,8 +143,12 @@
       </section>
       <section class="row">
         <div class="col-md-12 mt-4">
-          <form action="https://formspree.io/f/xeqddodw" method="POST">
-            <div class="mb-3">
+          <form
+            action="https://formspree.io/f/xayzwoya"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="col-md-6 mb-3">
               <label for="currNomeInput" class="form-label">Nome</label>
               <input
                 type="text"
@@ -153,7 +159,7 @@
                 required
               />
             </div>
-            <div class="mb-3">
+            <div class="col-md-6 mb-3">
               <label for="currEmailInput" class="form-label">Email</label>
               <input
                 type="email"
@@ -164,7 +170,20 @@
                 required
               />
             </div>
-            <div class="mb-3">
+            <div class="col-md-6 mb-3">
+              <label for="currEmpresaInput" class="form-label"
+                >Nome da Empresa</label
+              >
+              <input
+                type="text"
+                name="nome-empresa"
+                class="form-control form-border"
+                id="currEmpresaInput"
+                placeholder="Nome da empresa"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
               <label for="currTelInput" class="form-label">Telefone</label>
               <input
                 type="text"
@@ -176,11 +195,27 @@
                 required
               />
             </div>
+
             <div class="mb-3">
-              <label for="currMesgTextarea" class="form-label">Mensagem</label>
+              <label for="currMesgServicosTextarea" class="form-label"
+                >Produtos ou Serviços prestados pela empresa</label
+              >
               <textarea
                 class="form-control form-border"
-                name="mensagem"
+                name="msg-servicos"
+                id="currMesgServicosTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgTextarea" class="form-label"
+                >Observações adicionais</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-obs"
                 id="currMesgTextarea"
                 rows="4"
                 required
