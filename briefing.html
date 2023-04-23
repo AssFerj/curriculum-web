@@ -1,0 +1,370 @@
+<!DOCTYPE sim>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Assis Júnior | Contato</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css.map" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="row vh-100">
+    <aside
+      class="col-md-4 p-4 curr-bg d-flex flex-column justify-content-center align-items-center"
+    >
+      <nav
+        class="navbar navbar navbar-expand-lg d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="row px-3 foto-perfil">
+          <img
+            src="./assets/img/assis.jpg"
+            alt="Assis Júnior"
+            class="imagem-perfil px-2"
+          />
+        </div>
+
+        <div class="row pt-5">
+          <button
+            class="navbar-toggler btn bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul
+              class="navbar-nav d-flex flex-column justify-content-center align-items-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light active"
+                  aria-current="page"
+                  href="index.html"
+                  >SOBRE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="conhecimentos.html"
+                  >CONHECIMENTOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="objetivo.html">OBJETIVO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="projetos.html">PROJETOS</a>
+              </li>
+              <li class="nav-item mt-3">
+                <a
+                  href="assets/archives/curriculum-junior.pdf"
+                  class="p-2 link-icon curr-border curr-btn-bg"
+                  target="_blank"
+                  >Baixar Currículo</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <section class="col-md-8 p-4 d-flex flex-column justify-content-center">
+      <div class="row mb-3">
+        <h1 class="curr-font fs-1 fw-bold">
+          FRANCISCO DE <strong class="destaque fs-1 fw-bold">ASSIS</strong
+          ><br />
+          FERREIRA <strong class="destaque fs-1 fw-bold">JÚNIOR</strong>
+        </h1>
+        <address>
+          Rua Manoel José de Araújo, 84, Olinda<br />
+          Camocim - CE -
+          <a class="link" href="mailto:assisjuniorwm@gmail.com"
+            >assisjuniorwm@gmail.com</a
+          >
+        </address>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-12">
+          <h5 class="descricao">
+            Preencha o formulário abaixo para que eu possa entender a essência
+            da sua idéia e os objetivos do seu projeto, brevemente entrarei em
+            contato para confirmar informações e acertar a finalização do seu
+            projeto, prazo de até 20 dias para entrega do seu site.
+          </h5>
+        </div>
+      </div>
+      <section class="row">
+        <ul class="col-12 d-flex flex-row align-items-center">
+          <a
+            class="link-icon px-3 py-2 me-4"
+            href="https://www.linkedin.com/in/assis-junior-7b092a107/"
+            target="_blank"
+          >
+            <li>
+              <i class="bi bi-linkedin icon"></i>
+            </li>
+          </a>
+          <a
+            class="link-icon px-3 py-2 me-4"
+            href="https://github.com/AssFerj"
+            target="_blank"
+          >
+            <li>
+              <i class="bi bi-github icon"></i>
+            </li>
+          </a>
+          <a
+            class="link-icon px-3 py-2 me-4"
+            href="mailto:assisjuniorwm@gmail.com"
+            target="_blank"
+          >
+            <li>
+              <i class="bi bi-envelope-paper-fill icon"></i>
+            </li>
+          </a>
+        </ul>
+      </section>
+      <section class="row">
+        <div class="col-md-12 mt-4">
+          <form
+            action="https://formspree.io/f/xayzwoya"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="mb-3">
+              <label for="currNomeInput" class="form-label">Nome</label>
+              <input
+                type="text"
+                name="nome"
+                class="form-control form-border"
+                id="currNomeInput"
+                placeholder="Nome"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currEmailInput" class="form-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control form-border"
+                id="currEmailInput"
+                placeholder="name@mail.com"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currEmpresaInput" class="form-label"
+                >Nome da Empresa</label
+              >
+              <input
+                type="text"
+                name="nome-empresa"
+                class="form-control form-border"
+                id="currEmpresaInput"
+                placeholder="Nome da empresa"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currTelInput" class="form-label">Telefone</label>
+              <input
+                type="text"
+                name="telefone"
+                class="form-control form-border"
+                id="currTelInput"
+                placeholder="88 999999999"
+                maxlength="11"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgServicosTextarea" class="form-label"
+                >Produtos ou Serviços prestados pela empresa</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-servicos"
+                id="currMesgServicosTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgPublicoTextarea" class="form-label"
+                >Público alvo</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-publico"
+                id="currMesgPublicoTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-concorrentes"
+                id="currMesgConcorrentesTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Principais concorrentes</label
+              ><br />
+              <input type="radio" id="sim" name="possui-logo" value="sim" />
+              <label for="sim">Sim</label><br />
+              <input type="radio" id="nao" name="possui-logo" value="nao" />
+              <label for="nao">Não</label><br />
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgReferenciasTextarea" class="form-label"
+                >Site alguns sites que gosta em termos de aparência</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-referencias"
+                id="currMesgReferenciasTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgNaoReferenciasTextarea" class="form-label"
+                >Site alguns sites que não gosta em termos de aparência</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-nao-referencias"
+                id="currMesgNaoReferenciasTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="currCorInput" class="form-label"
+                >Informe 3 cores principais que farão parte da identidade visual
+                do site</label
+              >
+              <input
+                type="text"
+                name="cor"
+                class="form-control form-border"
+                id="currCorInput"
+                placeholder="Informe as cores"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currLinkInput" class="form-label"
+                >Informe os principais links farão parte do site</label
+              >
+              <input
+                type="text"
+                name="link"
+                class="form-control form-border"
+                id="currLinkInput"
+                placeholder="Ex: HOME, EMPRESA, SERVIÇOS, ETC..."
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="currTipoTextarea" class="form-label"
+                >Qual será o tipo do seu site?</label
+              ><br />
+              <input type="radio" id="portal" name="portal" value="portal" />
+              <label for="portal">Portal</label><br />
+              <input type="radio" id="poratl" name="portal" value="portal" />
+              <label for="corporativo">Corporativo</label><br />
+              <input
+                type="radio"
+                id="corporativo"
+                name="corporativo"
+                value="corporativo"
+              />
+              <label for="ecommerce">e-Commerce</label><br />
+              <input
+                type="radio"
+                id="ecommerce"
+                name="ecommerce"
+                value="ecommerce"
+              />
+              <label for="outro">Outro</label><br />
+              <input type="radio" id="outro" name="outro" value="outro" />
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgConcorrentesTextarea" class="form-label"
+                >Prazo desejável para entrega do projeto?</label
+              ><br />
+              <input type="radio" id="10" name="10" value="10" />
+              <label for="10">10 Dias</label><br />
+              <input type="radio" id="20" name="20" value="20" />
+              <label for="20">20 Dias</label><br />
+              <input type="radio" id="30" name="30" value="30" />
+              <label for="30">30 Dias</label><br />
+            </div>
+
+            <div class="mb-3">
+              <label for="currMesgTextarea" class="form-label"
+                >Observações adicionais</label
+              >
+              <textarea
+                class="form-control form-border"
+                name="msg-obs"
+                id="currMesgTextarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <button
+                type="submit"
+                class="py-2 px-3 link-icon curr-border curr-btn-bg"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
